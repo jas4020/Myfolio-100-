@@ -1,0 +1,157 @@
+/* Large Device */
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner {
+        height: 700px;
+    }
+    #banner .banner_content h1 {
+        font-size: 55px;
+        letter-spacing: 25px;
+    }
+    #about .about_item {
+        padding: 35px 40px;
+    }
+    #service {
+        padding: 80px 0 50px;
+    }
+    #service .service_item {
+        padding-right: 70px;
+    }
+    #mywork .work_item .overlay {
+        padding: 12px;
+    }
+}
+
+/* Medium Device */
+@media (min-width:768px) and (max-width:991.98px){
+    #banner {
+        height: 600px;
+    }
+    #banner .banner_content h4 {
+        font-size: 25px;
+    }
+    #banner .banner_content h1 {
+        font-size: 40px;
+        letter-spacing: 18px;
+    }
+    #banner .banner_content img {
+        margin: 30px 0;
+    }
+    #banner .banner_content a {
+        padding: 14px 45px;
+    }
+    #about {
+        padding: 60px 0;
+    }
+    #about .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #service {
+        padding: 80px 0 50px;
+        background: #F0F0E8;
+    }
+    #service .service_item {
+        padding-right: 70px;
+    }
+    #mywork .work_item .overlay {
+        padding: 12px;
+    }
+}
+
+/* Small Device */
+@media (min-width:576px) and (max-width:767.98px){
+    #banner {
+        height: 400px;
+    }
+    #banner .banner_content h4 {
+        font-size: 20px;
+    }
+    #banner .banner_content h1 {
+        font-size: 40px;
+        letter-spacing: 9px;
+    }
+    #banner .banner_content p {
+        font-size: 16px;
+    }
+    #banner .banner_content img {
+        margin: 25px 0;
+    }
+    #banner .banner_content a {
+        padding: 12px 40px;
+    }
+    #about {
+        padding: 40px 0;
+    }
+    #about .about_item{
+        padding: 35px 33px;
+    }
+    #about .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #service {
+        padding: 80px 0 50px;
+        background: #F0F0E8;
+    }
+    #service .service_item {
+        padding-right: 70px;
+    }
+    #mywork .work_item .overlay {
+        padding: 12px;
+    }
+}
+
+
+
+/* Extra Small Device */
+@media (max-width:575.98px){
+    .section_info h2 {
+        font-size: 35px;
+    }
+    #banner {
+        height: 400px;
+    }
+    #banner .banner_content h4 {
+        font-size: 15px;
+    }
+    #banner .banner_content h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+        margin: 5px 0;
+    }
+    #banner .banner_content p {
+        font-size: 13px;
+    }
+    #banner .banner_content img {
+        margin: 25px 0;
+    }
+    #banner .banner_content a {
+        padding: 12px 40px;
+    }
+    #about {
+        padding: 40px 0;
+    }
+    #about .about_item{
+        padding: 35px 33px;
+        border-right-color: transparent;
+        margin-top: 0;
+    }
+    #service {
+        padding: 80px 0 50px;
+        background: #F0F0E8;
+    }
+    #service .service_item {
+        padding:0 40px;
+    }
+    #mywork .work_item .overlay {
+        padding: 12px;
+    }
+    #contact .contact_form input, #contact .contact_form textarea {
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (min-width:450px) and (max-width:576px){
+    #about .about_item{
+        width: 50%;
+    }
+}
